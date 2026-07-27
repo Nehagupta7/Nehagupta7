@@ -1,0 +1,50 @@
+<svg viewBox="0 0 440 200" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="ringG" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#22D3EE"/>
+    <stop offset="100%" stop-color="#A78BFA"/>
+  </linearGradient>
+  <style>
+    <![CDATA[
+    .mono { font-family:'JetBrains Mono','Fira Code',Consolas,monospace; }
+    .sans { font-family:'Poppins','Segoe UI',Helvetica,Arial,sans-serif; }
+    ]]>
+  </style>
+</defs>
+<rect x="1" y="1" width="438" height="198" rx="14" fill="#0B1120" stroke="#22D3EE" stroke-opacity="0.3"/>
+<text x="20" y="30" class="sans" font-size="15" font-weight="700" fill="#E2E8F0">GitHub Stats</text>
+
+<!-- rank ring -->
+<g transform="translate(90,120)">
+  <circle r="55" fill="none" stroke="#1E293B" stroke-width="10"/>
+  <circle r="55" fill="none" stroke="url(#ringG)" stroke-width="10" stroke-linecap="round"
+    stroke-dasharray="345" stroke-dashoffset="345" transform="rotate(-90)">
+    <animate attributeName="stroke-dashoffset" values="345;66" dur="1.8s" begin="0.3s" fill="freeze"/>
+  </circle>
+  <text x="0" y="8" text-anchor="middle" class="sans" font-size="26" font-weight="700" fill="#22D3EE">A+</text>
+</g>
+
+<!-- stat rows -->
+<g class="mono" font-size="13" fill="#CBD5E1">
+  <g transform="translate(190,58)" opacity="0">
+    <text x="0" y="0">⭐ Total Stars      <tspan fill="#FBBF24" font-weight="700">48</tspan></text>
+    <animate attributeName="opacity" values="0;1" begin="0.2s" dur="0.5s" fill="freeze"/>
+  </g>
+  <g transform="translate(190,88)" opacity="0">
+    <text x="0" y="0">📝 Total Commits    <tspan fill="#22D3EE" font-weight="700">1,240</tspan></text>
+    <animate attributeName="opacity" values="0;1" begin="0.5s" dur="0.5s" fill="freeze"/>
+  </g>
+  <g transform="translate(190,118)" opacity="0">
+    <text x="0" y="0">🔀 Total PRs        <tspan fill="#A78BFA" font-weight="700">37</tspan></text>
+    <animate attributeName="opacity" values="0;1" begin="0.8s" dur="0.5s" fill="freeze"/>
+  </g>
+  <g transform="translate(190,148)" opacity="0">
+    <text x="0" y="0">🐛 Total Issues     <tspan fill="#34D399" font-weight="700">15</tspan></text>
+    <animate attributeName="opacity" values="0;1" begin="1.1s" dur="0.5s" fill="freeze"/>
+  </g>
+  <g transform="translate(190,178)" opacity="0">
+    <text x="0" y="0">📦 Repos Contributed <tspan fill="#F472B6" font-weight="700">12</tspan></text>
+    <animate attributeName="opacity" values="0;1" begin="1.4s" dur="0.5s" fill="freeze"/>
+  </g>
+</g>
+</svg>

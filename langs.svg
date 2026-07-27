@@ -1,0 +1,42 @@
+<svg viewBox="0 0 440 200" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <style>
+    <![CDATA[
+    .mono { font-family:'JetBrains Mono','Fira Code',Consolas,monospace; }
+    .sans { font-family:'Poppins','Segoe UI',Helvetica,Arial,sans-serif; }
+    ]]>
+  </style>
+</defs>
+<rect x="1" y="1" width="438" height="198" rx="14" fill="#0B1120" stroke="#A78BFA" stroke-opacity="0.3"/>
+<text x="20" y="30" class="sans" font-size="15" font-weight="700" fill="#E2E8F0">Top Languages</text>
+
+<g class="mono" font-size="12">
+  <text x="20" y="58" fill="#F7DF1E">JavaScript</text>
+  <text x="400" y="58" text-anchor="end" fill="#8B98B5">58.4%</text>
+  <rect x="20" y="64" width="400" height="8" rx="4" fill="#1E293B"/>
+  <rect x="20" y="64" height="8" rx="4" fill="#F7DF1E">
+    <animate attributeName="width" values="0;233.6" dur="1.4s" fill="freeze"/>
+  </rect>
+
+  <text x="20" y="94" fill="#38BDF8">CSS</text>
+  <text x="400" y="94" text-anchor="end" fill="#8B98B5">21.2%</text>
+  <rect x="20" y="100" width="400" height="8" rx="4" fill="#1E293B"/>
+  <rect x="20" y="100" height="8" rx="4" fill="#38BDF8">
+    <animate attributeName="width" values="0;84.8" dur="1.4s" begin="0.15s" fill="freeze"/>
+  </rect>
+
+  <text x="20" y="130" fill="#F97316">HTML</text>
+  <text x="400" y="130" text-anchor="end" fill="#8B98B5">12.6%</text>
+  <rect x="20" y="136" width="400" height="8" rx="4" fill="#1E293B"/>
+  <rect x="20" y="136" height="8" rx="4" fill="#F97316">
+    <animate attributeName="width" values="0;50.4" dur="1.4s" begin="0.3s" fill="freeze"/>
+  </rect>
+
+  <text x="20" y="166" fill="#A78BFA">Other</text>
+  <text x="400" y="166" text-anchor="end" fill="#8B98B5">7.8%</text>
+  <rect x="20" y="172" width="400" height="8" rx="4" fill="#1E293B"/>
+  <rect x="20" y="172" height="8" rx="4" fill="#A78BFA">
+    <animate attributeName="width" values="0;31.2" dur="1.4s" begin="0.45s" fill="freeze"/>
+  </rect>
+</g>
+</svg>

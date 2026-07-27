@@ -1,0 +1,70 @@
+<svg viewBox="0 0 900 170" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="shineT" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#fff" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#fff" stop-opacity="0.3"/>
+    <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+  <clipPath id="trophyClip"><rect x="0" y="0" width="900" height="170" rx="14"/></clipPath>
+  <style>
+    <![CDATA[ .mono { font-family:'JetBrains Mono','Fira Code',Consolas,monospace; } .sans { font-family:'Poppins','Segoe UI',Helvetica,Arial,sans-serif; } ]]>
+  </style>
+</defs>
+<g clip-path="url(#trophyClip)">
+<rect x="0" y="0" width="900" height="170" fill="#0B1120"/>
+<rect x="0" y="0" width="900" height="170" fill="none" stroke="#22D3EE" stroke-opacity="0.3"/>
+<rect x="-200" y="0" width="150" height="170" fill="url(#shineT)">
+  <animate attributeName="x" values="-200;950" dur="3s" begin="1.2s" repeatCount="indefinite"/>
+</rect>
+
+<g transform="translate(75,85)" opacity="0">
+  <animate attributeName="opacity" values="0;1" begin="0.00s" dur="0.5s" fill="freeze"/>
+  <animateTransform attributeName="transform" type="translate" values="75,130;75,85" begin="0.00s" dur="0.5s" fill="freeze" additive="replace"/>
+  <circle r="34" fill="none" stroke="#22D3EE" stroke-width="2.5" stroke-opacity="0.6"/>
+  <text x="0" y="-4" text-anchor="middle" class="sans" font-size="18" font-weight="700" fill="#22D3EE">3+ yrs</text>
+  <text x="0" y="16" text-anchor="middle" class="mono" font-size="10" fill="#8B98B5">Experience</text>
+  
+</g>
+<g transform="translate(225,85)" opacity="0">
+  <animate attributeName="opacity" values="0;1" begin="0.25s" dur="0.5s" fill="freeze"/>
+  <animateTransform attributeName="transform" type="translate" values="225,130;225,85" begin="0.25s" dur="0.5s" fill="freeze" additive="replace"/>
+  <circle r="34" fill="none" stroke="#A78BFA" stroke-width="2.5" stroke-opacity="0.6"/>
+  <text x="0" y="-4" text-anchor="middle" class="sans" font-size="18" font-weight="700" fill="#A78BFA">24</text>
+  <text x="0" y="16" text-anchor="middle" class="mono" font-size="10" fill="#8B98B5">Repositories</text>
+  <line x1="-69" y1="-85" x2="-69" y2="85" stroke="#1E293B" stroke-width="1"/>
+</g>
+<g transform="translate(375,85)" opacity="0">
+  <animate attributeName="opacity" values="0;1" begin="0.50s" dur="0.5s" fill="freeze"/>
+  <animateTransform attributeName="transform" type="translate" values="375,130;375,85" begin="0.50s" dur="0.5s" fill="freeze" additive="replace"/>
+  <circle r="34" fill="none" stroke="#FBBF24" stroke-width="2.5" stroke-opacity="0.6"/>
+  <text x="0" y="-4" text-anchor="middle" class="sans" font-size="18" font-weight="700" fill="#FBBF24">48</text>
+  <text x="0" y="16" text-anchor="middle" class="mono" font-size="10" fill="#8B98B5">Stars</text>
+  <line x1="-69" y1="-85" x2="-69" y2="85" stroke="#1E293B" stroke-width="1"/>
+</g>
+<g transform="translate(525,85)" opacity="0">
+  <animate attributeName="opacity" values="0;1" begin="0.75s" dur="0.5s" fill="freeze"/>
+  <animateTransform attributeName="transform" type="translate" values="525,130;525,85" begin="0.75s" dur="0.5s" fill="freeze" additive="replace"/>
+  <circle r="34" fill="none" stroke="#F472B6" stroke-width="2.5" stroke-opacity="0.6"/>
+  <text x="0" y="-4" text-anchor="middle" class="sans" font-size="18" font-weight="700" fill="#F472B6">36</text>
+  <text x="0" y="16" text-anchor="middle" class="mono" font-size="10" fill="#8B98B5">Followers</text>
+  <line x1="-69" y1="-85" x2="-69" y2="85" stroke="#1E293B" stroke-width="1"/>
+</g>
+<g transform="translate(675,85)" opacity="0">
+  <animate attributeName="opacity" values="0;1" begin="1.00s" dur="0.5s" fill="freeze"/>
+  <animateTransform attributeName="transform" type="translate" values="675,130;675,85" begin="1.00s" dur="0.5s" fill="freeze" additive="replace"/>
+  <circle r="34" fill="none" stroke="#34D399" stroke-width="2.5" stroke-opacity="0.6"/>
+  <text x="0" y="-4" text-anchor="middle" class="sans" font-size="18" font-weight="700" fill="#34D399">1.2k</text>
+  <text x="0" y="16" text-anchor="middle" class="mono" font-size="10" fill="#8B98B5">Commits</text>
+  <line x1="-69" y1="-85" x2="-69" y2="85" stroke="#1E293B" stroke-width="1"/>
+</g>
+<g transform="translate(825,85)" opacity="0">
+  <animate attributeName="opacity" values="0;1" begin="1.25s" dur="0.5s" fill="freeze"/>
+  <animateTransform attributeName="transform" type="translate" values="825,130;825,85" begin="1.25s" dur="0.5s" fill="freeze" additive="replace"/>
+  <circle r="34" fill="none" stroke="#38BDF8" stroke-width="2.5" stroke-opacity="0.6"/>
+  <text x="0" y="-4" text-anchor="middle" class="sans" font-size="18" font-weight="700" fill="#38BDF8">37</text>
+  <text x="0" y="16" text-anchor="middle" class="mono" font-size="10" fill="#8B98B5">PRs Merged</text>
+  <line x1="-69" y1="-85" x2="-69" y2="85" stroke="#1E293B" stroke-width="1"/>
+</g>
+
+</g>
+</svg>
